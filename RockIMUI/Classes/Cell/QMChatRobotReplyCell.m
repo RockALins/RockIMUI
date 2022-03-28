@@ -6,7 +6,7 @@
 //
 
 #import "QMChatRobotReplyCell.h"
-
+#import "QMHeader.h"
 @interface QMChatRobotReplyCell ()
 
 @property (nonatomic, strong) UIButton *helpBtn;

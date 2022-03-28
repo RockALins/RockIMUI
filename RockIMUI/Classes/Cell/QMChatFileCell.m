@@ -9,7 +9,7 @@
 #import "QMChatShowRichTextController.h"
 #import "PieView.h"
 #import "QMProfileManager.h"
-
+#import "QMHeader.h"
 @interface QMChatFileCell ()
 
 @property (nonatomic, strong) UIImageView *fileImageView;

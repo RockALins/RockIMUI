@@ -6,10 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMHeader.h"
-#import "Masonry.h"
-#import "UIImage+GIF.h"
-#import "UIImageView+WebCache.h"
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImage+GIF.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 #import <QMLineSDK/QMLineSDK.h>
 
 

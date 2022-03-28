@@ -7,6 +7,7 @@
 
 #import "QMChatRobotFlowCell.h"
 #import "QMChatFlowView.h"
+#import "QMHeader.h"
 @implementation QMChatRobotFlowCell {
     
     UILabel *_headerLabel;

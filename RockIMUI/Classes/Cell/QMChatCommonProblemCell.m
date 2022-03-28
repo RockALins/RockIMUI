@@ -9,7 +9,7 @@
 #import "SegmentView.h"
 #import "AnswerView.h"
 #import "AnswerMoreView.h"
-
+#import "QMHeader.h"
 @interface QMChatCommonProblemCell () <SegmentViewDelegate, AnswerViewDelegate>
 
 @property (nonatomic, strong) SegmentView *segmentView;

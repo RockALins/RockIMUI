@@ -8,7 +8,7 @@
 
 #import "QMChatLogistcsInfoCell.h"
 #import "QMRegexHandle.h"
-
+#import "QMHeader.h"
 @interface QMChatLogistcsInfoCell () <UITableViewDataSource, UITableViewDelegate>
 
 @property(nonatomic, strong) UILabel *titleLabel;

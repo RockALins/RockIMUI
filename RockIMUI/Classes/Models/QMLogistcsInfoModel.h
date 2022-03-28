@@ -6,7 +6,7 @@
 //  Copyright © 2019 HCF. All rights reserved.
 //
 
-#import "JSONModel.h"
+#import <JSONModel/JSONModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

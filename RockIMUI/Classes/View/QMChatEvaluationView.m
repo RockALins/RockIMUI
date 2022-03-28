@@ -6,7 +6,7 @@
 //
 
 #import "QMChatEvaluationView.h"
-
+#import "QMHeader.h"
 @interface QMChatEvaluationView () <UITextViewDelegate>
 
 @property (nonatomic, copy) NSArray *radioValue;

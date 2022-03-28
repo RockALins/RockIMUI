@@ -9,7 +9,7 @@
 #import "QMFileManagerController.h"
 #import <Photos/Photos.h>
 #import <MobileCoreServices/MobileCoreServices.h>
-
+#import "QMHeader.h"
 @implementation QMChatRoomViewController (ChatMessage)
 
 #pragma mark - sendMessage

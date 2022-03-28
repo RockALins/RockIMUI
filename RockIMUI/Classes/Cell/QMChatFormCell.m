@@ -8,7 +8,7 @@
 #import "QMChatFormCell.h"
 #import "QMChatFormView.h"
 #import "QMChatRoomViewController.h"
-
+#import "QMHeader.h"
 @implementation QMChatFormCell {
     UILabel *_promptLabel;
     

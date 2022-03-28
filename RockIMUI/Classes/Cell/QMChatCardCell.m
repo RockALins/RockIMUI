@@ -6,7 +6,7 @@
 //
 
 #import "QMChatCardCell.h"
-
+#import "QMHeader.h"
 #define cardTitleMaxWidth (QM_kScreenWidth - 110 - 24 - 15)
 
 @implementation QMChatCardCell {

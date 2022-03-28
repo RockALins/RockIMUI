@@ -7,7 +7,7 @@
 
 #import "QMChatImageCell.h"
 #import "QMChatShowImageViewController.h"
-
+#import "QMHeader.h"
 @implementation QMChatImageCell
 
 - (void)createUI {

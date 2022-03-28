@@ -31,6 +31,7 @@
 #import "QMAudioPlayer.h"
 #import "QMAudioRecorder.h"
 #import "MJRefresh.h"
+#import "QMHeader.h"
 
 @interface QMChatRoomViewController () < UITextViewDelegate, inputeViewDelegate, faceViewDelegate, AVAudioRecorderDelegate, QMAudioRecorderDelegate> {
     

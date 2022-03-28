@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import <QMLineSDK/QMLineSDK.h>
-#import "QMHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

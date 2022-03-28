@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   
  s.resource = [
-    '**/RockIMUI/Assets/*.bundle'
+    'RockIMUI/Assets/*.bundle'
  ]
   
- s.source_files = '**/RockIMUI/Classes/**/**/*'
+ s.source_files = 'RockIMUI/Classes/**/**/*'
          
   
 

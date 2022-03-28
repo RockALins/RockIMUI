@@ -26,6 +26,7 @@
 #import "QMChatListCardCell.h"
 #import "QMChatRobotReplyCell.h"
 #import "QMTipMessageCell.h"
+#import "QMHeader.h"
 
 @implementation QMChatRoomViewController (TableView)
 
@@ -171,11 +172,7 @@
             
             UIAlertAction *callAction = [UIAlertAction actionWithTitle:QMUILocalizableString(button.call) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 NSString *phone = [NSString stringWithFormat:@"tel://%@",number];
-                if (@available(iOS 10.0, *)){
-                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone] options:@{} completionHandler:nil];
-                }else {
-                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone]];
-                }
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone] options:@{} completionHandler:nil];
             }];
             
             UIAlertAction *copyAction = [UIAlertAction actionWithTitle:QMUILocalizableString(button.copy) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {

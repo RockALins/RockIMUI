@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMHeader.h"
-#import "Masonry.h"
+
+#import <Masonry/Masonry.h>
 #import <QMLineSDK/QMLineSDK.h>
 @class RadioContentView;
 NS_ASSUME_NONNULL_BEGIN

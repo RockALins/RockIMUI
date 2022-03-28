@@ -7,7 +7,7 @@
 
 #import "QMChatRichTextCell.h"
 #import "QMChatShowRichTextController.h"
-
+#import "QMHeader.h"
 #define richViewHeight (QM_kScreenWidth - 67 * 2)
 
 @implementation QMChatRichTextCell {

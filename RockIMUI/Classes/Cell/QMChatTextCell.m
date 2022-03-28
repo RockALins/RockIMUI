@@ -7,6 +7,7 @@
 
 #import "QMChatTextCell.h"
 #import "MLEmojiLabel.h"
+#import "QMHeader.h"
 @interface QMChatTextCell() <MLEmojiLabelDelegate>
 
 @end

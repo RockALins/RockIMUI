@@ -7,7 +7,7 @@
 
 #import "QMChatListCardCell.h"
 #import "QMChatShowRichTextController.h"
-
+#import "QMHeader.h"
 @interface QMChatListCardCell () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (nonatomic, strong) UICollectionView *collectionView;

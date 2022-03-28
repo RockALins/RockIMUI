@@ -47,11 +47,11 @@
     [scrollView setShowsHorizontalScrollIndicator:NO];
     [scrollView setContentSize:CGSizeMake(CGRectGetWidth(scrollView.frame)*Pages,CGRectGetHeight(scrollView.frame))];
     
-//    for (int i= 0;i<Pages;i++) {
-//        TCFaceView *faceView = [[TCFaceView alloc]initWithFrame:CGRectMake(i*CGRectGetWidth(self.bounds),0.0f,CGRectGetWidth(self.bounds),CGRectGetHeight(scrollView.bounds)) forIndexPath:i];
-//        [scrollView addSubview:faceView];
-//        faceView.delegate = self;
-//    }
+    for (int i= 0;i<Pages;i++) {
+        TCFaceView *faceView = [[TCFaceView alloc]initWithFrame:CGRectMake(i*CGRectGetWidth(self.bounds),0.0f,CGRectGetWidth(self.bounds),CGRectGetHeight(scrollView.bounds)) forIndexPath:i];
+        [scrollView addSubview:faceView];
+        faceView.delegate = self;
+    }
     
     pageControl = [[UIPageControl alloc]init];
     [pageControl setFrame:CGRectMake(0,CGRectGetMaxY(scrollView.frame),CGRectGetWidth(self.bounds),FacePageControlHeight)];
@@ -81,11 +81,11 @@
     pageControl.currentPage = page;
 }
 
-//#pragma mark ZBFaceView Delegate
-//- (void)didSelecteFace:(NSString *)faceName andIsSelecteDelete:(BOOL)del {
-//    if ([self.delegate respondsToSelector:@selector(SendTheFaceStr:isDelete:)]) {
-//        [self.delegate SendTheFaceStr:faceName isDelete:del];
-//    }
-//}
+#pragma mark ZBFaceView Delegate
+- (void)didSelecteFace:(NSString *)faceName andIsSelecteDelete:(BOOL)del {
+    if ([self.delegate respondsToSelector:@selector(SendTheFaceStr:isDelete:)]) {
+        [self.delegate SendTheFaceStr:faceName isDelete:del];
+    }
+}
 
 @end

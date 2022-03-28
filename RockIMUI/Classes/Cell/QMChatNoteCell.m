@@ -6,7 +6,7 @@
 //
 
 #import "QMChatNoteCell.h"
-
+#import "QMHeader.h"
 @interface QMChatNoteCell ()
 
 @property (nonatomic, strong) UILabel *titleLabel;

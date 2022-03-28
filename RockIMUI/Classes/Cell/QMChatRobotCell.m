@@ -7,7 +7,7 @@
 
 #import "QMChatRobotCell.h"
 #import "QMChatShowImageViewController.h"
-
+#import "QMHeader.h"
 @interface QMChatRobotCell ()<UITextViewDelegate>
 
 @end

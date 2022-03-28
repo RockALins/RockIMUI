@@ -7,7 +7,7 @@
 
 #import "QMChatNewCardCell.h"
 #import "QMChatShowRichTextController.h"
-
+#import "QMHeader.h"
 @implementation QMChatNewCardCell {
     NSDictionary *_cardDic;
     

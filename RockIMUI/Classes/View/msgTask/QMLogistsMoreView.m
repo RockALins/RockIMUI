@@ -8,6 +8,7 @@
 
 #import "QMLogistsMoreView.h"
 #import "QMChatLogistcsInfoCell.h"
+#import "QMHeader.h"
 @interface QMLogistsMoreView () <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *moreTabView;
 @property (nonatomic, strong) UIView *bgView;

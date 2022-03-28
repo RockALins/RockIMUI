@@ -9,7 +9,7 @@
 #import "QMAudioPlayer.h"
 #import "QMAudioAnimation.h"
 #import "MLEmojiLabel.h"
-
+#import "QMHeader.h"
 @interface QMChatVoiceCell() <AVAudioPlayerDelegate, MLEmojiLabelDelegate>
 
 @property (nonatomic, strong) UIView *voiceView;

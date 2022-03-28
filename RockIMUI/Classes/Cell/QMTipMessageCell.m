@@ -6,7 +6,7 @@
 //
 
 #import "QMTipMessageCell.h"
-
+#import "QMHeader.h"
 @interface QMTipMessageCell ()
 
 @property (nonatomic, strong) UILabel *customMessageLab;

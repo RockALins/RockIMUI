@@ -6,7 +6,7 @@
 //
 
 #import "QMChatBaseCell.h"
-
+#import "QMHeader.h"
 @implementation QMChatBaseCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {

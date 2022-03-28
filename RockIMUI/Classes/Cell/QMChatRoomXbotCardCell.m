@@ -8,7 +8,7 @@
 
 #import "QMChatRoomXbotCardCell.h"
 #import "QMChatRoomXbotCardView.h"
-
+#import "QMHeader.h"
 @interface QMChatRoomXbotCardCell ()
 @property (nonatomic, strong) QMChatRoomXbotCardView *cardView;
 @end

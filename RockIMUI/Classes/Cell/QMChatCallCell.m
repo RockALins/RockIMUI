@@ -7,6 +7,7 @@
 
 #import "QMChatCallCell.h"
 #import "MLEmojiLabel.h"
+#import "QMHeader.h"
 @interface QMChatCallCell ()
 @property (nonatomic, strong) UIImageView *iconImageView;
 @property (nonatomic, strong) MLEmojiLabel *titleLab;
