@@ -46,6 +46,7 @@ TODO: Add long description of the pod here.
    s.dependency 'libmp3lame', '~> 3.99.5'
    s.dependency 'QMUIComponent'
    s.dependency 'QMLineSDK'
+   s.dependency 'QMChatUICore'
    
    
    #pod trunk push RockIMUI.podspec --allow-warnings
